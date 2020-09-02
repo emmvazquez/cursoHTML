@@ -1,0 +1,43 @@
+.contenedor{
+	width: 100%;
+	height: 500px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 50px;
+}
+.izquierda{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #efefef;
+}
+.derecha{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #cecece;
+}
+
+.left{
+	padding-top:50px;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	background: #efefef;
+}
+
+.center{
+	padding-top:50px;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	background: #ddd;
+}
+
+.right{
+	padding-top:50px;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	background: #ccc;
+}
