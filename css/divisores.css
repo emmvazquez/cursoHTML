@@ -5,39 +5,29 @@
 	text-align: center;
 	margin-top: 50px;
 }
-.izquierda{
+.izquierda, .derecha{
 	width: 50%;
 	height: 100%;
 	float: left;
-	background: #efefef;
 }
 .derecha{
-	width: 50%;
-	height: 100%;
-	float: left;
 	background: #cecece;
 }
-
-.left{
-	padding-top:50px;
-	width: 33.33%;
-	height: 100%;
-	float: left;
-	background: #efefef;
+.izquierda{
+	background: #ccc;
 }
-
-.center{
+.left, .center, .right{
 	padding-top:50px;
 	width: 33.33%;
 	height: 100%;
 	float: left;
+}
+.left{
+	background: #ccc;
+}
+.center{
 	background: #ddd;
 }
-
 .right{
-	padding-top:50px;
-	width: 33.33%;
-	height: 100%;
-	float: left;
-	background: #ccc;
+	background: #eee;
 }
