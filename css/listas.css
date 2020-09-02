@@ -1,5 +1,4 @@
 ul li{
-	
 	list-style: none;
 	display: inline;
 	padding-right: 20px;
@@ -9,13 +8,45 @@ ul li{
 	padding-left: 20px;
 	text-decoration: none;
 }
-
 ul li a{
 	text-decoration: none;
 	color: orange;
 }
-
 ul li:hover{
 	background: black;
 	color: white;
+}
+
+ol li{
+	list-style: none;
+	display: inline;
+	padding-right: 20px;
+	border-left:1px solid #004a98;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #004a98;
+}
+ol li a{
+	text-decoration: none;
+
+}
+ol li:hover{
+	color: gray;
+}
+
+
+.contenedor2 {
+	display: block;
+	width: 100%;
+	border-bottom: 2px solid black;
+}
+.contenedor2 ul li{
+	list-style: none;
+	display: block;
+	height: 150px;
+	font:normal 100 36px/46px arial;
+	text-align: center;
+	border-left: blue;
 }
