@@ -1,3 +1,33 @@
 body{
-	font-family: "Montserrat", sans-serif;
+	
+}
+
+h1{
+
+	font:normal 700  28px / 30px "Montserrat", sans-serif ;
+}
+
+h2{
+	font:normal 600 24px / 24px "Montserrat", sans-serif ;
+}
+
+input[type=text]{
+	font:normal 100 22px / 16px "Montserrat", sans-serif ;
+}
+
+input[type=submit]{
+	font:normal 600 22px / 16px "Montserrat", sans-serif ;
+}
+
+
+.formulario{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid #ccc;
+}
+
+.formulario input[type=text]{
+	width: 100%;
+	display: block;
 }
