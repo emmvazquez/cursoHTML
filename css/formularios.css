@@ -31,7 +31,8 @@ input[type=submit]{
 	border:1px solid #ccc;
 }
 
-.formulario input[type=text], .formulario input[type=email],  .formulario input[type=number]{
+.formulario input[type=text], .formulario input[type=email],  .formulario input[type=number],
+.formulario select{
 	width: 500px;
 	height: 40px;
 	margin: 10px auto 10px auto;
@@ -41,6 +42,29 @@ input[type=submit]{
 	border-bottom: 3px solid #0040a6;
 	display: block;
 
+}
+
+.select{
+	position:relative;
+
+}
+
+.select select{
+	display: none;
+}
+
+.select-selected{
+	background: green;
+}
+
+.select-selected:after{
+	position: absolute;
+	content: "";
+	top:10px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 2px solid red;
 }
 
 .formulario input[type=text]:focus{
