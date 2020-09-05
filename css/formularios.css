@@ -31,8 +31,11 @@ input[type=submit]{
 	border:1px solid #ccc;
 }
 
-.formulario input[type=text], .formulario input[type=email],  .formulario input[type=number],
-.formulario select{
+.formulario input[type=text], 
+.formulario input[type=email],  
+.formulario input[type=number],
+.formulario select, .formulario input[type=range],
+.formulario input[type=date]{
 	width: 500px;
 	height: 40px;
 	margin: 10px auto 10px auto;
@@ -42,6 +45,11 @@ input[type=submit]{
 	border-bottom: 3px solid #0040a6;
 	display: block;
 
+}
+
+.formulario input[type=range]{
+	margin-top: 30px;
+	margin-bottom: 30px; 
 }
 
 .select{

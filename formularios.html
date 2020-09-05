@@ -14,7 +14,7 @@
 <form action="formulario.html" method="post" class="formulario">
 	<div>
 			<label><i class="fas fa-user-alt"></i> Nombre</label>
-			<input type="text" name="Nombre" required="required" maxlength="10">
+			<input type="text" name="Nombre" required="required" maxlength="10" placeholder="Escribre tu nombre">
 	</div>
 	<div>
 			<label><i class="far fa-envelope"></i> Correo</label>
@@ -22,17 +22,26 @@
 	</div>
 	<div>
 			<label><i class="fas fa-birthday-cake"></i> Edad</label>
-			<input type="number" name="Edad" min="18" max="100" required >
+			<input type="number" name="Edad" min="18" max="100" required value="18" readonly="">
 	</div>
 
 	<div>
 			<label><i class="fas fa-venus-mars"></i> Género</label>
-			<select class="select">
+			<select>
 				<option><i class="fas fa-female"></i> Mujer</option>
 				<option><i class="fas fa-male"></i> Hombre</option>
 			</select>
 	</div>
 
+
+	<div>
+		<input type="range" name="Calificacion" min="0" max="5" step=".5">
+	</div>
+
+	<div>
+		<label>Fecha de Nacimiento</label>
+		<input type="date" name="Fecha" >
+	</div>
 	<div>
 		<label>Comentarios</label>
 		<textarea cols="50" rows="10"></textarea>
