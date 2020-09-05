@@ -11,8 +11,12 @@ h2{
 	font:normal 600 24px / 24px "Montserrat", sans-serif ;
 }
 
-input[type=text]{
-	font:normal 100 22px / 16px "Montserrat", sans-serif ;
+label{
+	font:normal 100 22px / 26px "Montserrat", sans-serif ;
+	color:#636363;
+}
+input[type=text], input[type=email]{
+	font:normal 100 22px / 26px "Montserrat", sans-serif ;
 }
 
 input[type=submit]{
@@ -27,7 +31,34 @@ input[type=submit]{
 	border:1px solid #ccc;
 }
 
-.formulario input[type=text]{
-	width: 100%;
+.formulario input[type=text], .formulario input[type=email],  .formulario input[type=number]{
+	width: 500px;
+	height: 40px;
+	margin: 10px auto 10px auto;
+	padding-left: 10px;
+	color: #0040a6; 
+	border:0px;
+	border-bottom: 3px solid #0040a6;
 	display: block;
+
 }
+
+.formulario input[type=text]:focus{
+	border:none;
+	border-bottom: 3px solid green;
+}
+
+
+.formulario input[type=submit]{
+	width: 300px;
+	height: 60px;
+	margin: 10px auto 10px auto;
+	display: block;
+	background: #0040a6; 
+	color: white;
+	text-align: center
+	padding-top: 30px;
+	border-radius: 30px 0px 30px 0px;
+}
+
+

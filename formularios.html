@@ -4,13 +4,27 @@
 	<title>Formularios</title>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900;700;100&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/formularios.css">
+	<script src="https://kit.fontawesome.com/83ef2a1e4d.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
 <h1>Formularios</h1>
 <h2>Estilos para formularios</h2>
 <form action="formulario.html" method="post" class="formulario">
-	<input type="text" name="Nombre">
+	<div>
+			<label><i class="fas fa-user-alt"></i> Nombre</label>
+			<input type="text" name="Nombre" required="required">
+	</div>
+	<div>
+			<label><i class="far fa-envelope"></i> Correo</label>
+			<input type="email" name="Email" required>
+	</div>
+	<div>
+			<label><i class="fas fa-birthday-cake"></i> Edad</label>
+			<input type="number" name="Edad" min="18" required>
+	</div>
+
 	<input type="submit" name="Enviar">
 </form>
 </body>
