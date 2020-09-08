@@ -1,0 +1,76 @@
+.bg-menu-azul{
+	background: #004a98;
+}
+
+
+.izquierda{
+	background: #dcdcdc;
+	color: #004a98;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.izquierda h1{
+	text-align: center;
+}
+
+
+.formulario{
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+	background: #004a98;
+	font:normal 900 16px/24px Arial, sans-serif;
+}
+
+.animacion{
+	animation-name: animacionformulario2;
+	animation-duration: 5s;
+	background: #004a98;
+	animation-iteration-count: 3;
+}
+
+.animacion_h3{
+	animation-name: animacion_h3_2;
+	animation-duration: 5s;
+	color: white;
+	animation-iteration-count: 3;
+}
+
+.animacion_derecha{
+	animation-name: animacion_h3_2;
+	display: inline-block;
+	width: 200px;
+	animation-duration: 5s;
+	position: relative;
+	animation-iteration-count: 3;
+}
+
+
+@keyframes animacionderecha{
+	 0% {top: 0px;}
+	 50%{top:300;}
+	 100% {top: 0px;}
+}
+
+@keyframes animacionformulario{
+	from {background: #004a98;}
+	to{background: white;}
+}
+
+@keyframes animacionformulario2{
+	 0% {background: #004a98;}
+	 50%{background: white;}
+	 100% {background: #004a98;}
+}
+
+@keyframes animacion_h3_2{
+	 0% {color: white; left: -300px; top:-100px; }
+	 50%{color: #004a98;left: 0}
+	 100% {color: white;left: 300px;}
+}
+
+
+
+
