@@ -28,14 +28,15 @@
 	animation-name: animacionformulario2;
 	animation-duration: 5s;
 	background: #004a98;
-	animation-iteration-count: 3;
+	animation-iteration-count: infinite;
+
 }
 
 .animacion_h3{
 	animation-name: animacion_h3_2;
 	animation-duration: 5s;
 	color: white;
-	animation-iteration-count: 3;
+	animation-iteration-count: infinite;
 }
 
 .animacion_derecha{
@@ -43,9 +44,38 @@
 	display: inline-block;
 	width: 200px;
 	animation-duration: 5s;
+	animation-direction: alternate;
 	position: relative;
-	animation-iteration-count: 3;
+	animation-iteration-count: infinite;
+	animation-delay: 5s;
 }
+
+.animacion_tres{
+	width: 100px;
+	height: 100px;
+	background: black;
+	animation-name: movimiento;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	position: relative;
+
+	
+}
+
+
+.div1{
+	animation-timing-function: ease;
+}
+
+.div2{
+	animation-timing-function: ease-in;
+}
+
+@keyframes movimiento{
+	from{left:0;}
+	to{left: 900px;}
+}
+
 
 
 @keyframes animacionderecha{
